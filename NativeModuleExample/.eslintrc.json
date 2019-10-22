@@ -1,0 +1,33 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "react-native"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [
+            "off"
+        ],
+        "linebreak-style": [
+            "off"
+        ],
+        "no-undef": [
+            "error"
+        ],
+        "react/sort-comp": [
+            "off"
+        ],
+        "react/prefer-stateless-function": [
+            "off"
+        ],
+        "import/prefer-default-export": [
+            "off"
+        ],
+        "class-methods-use-this": [
+            "off"
+        ]
+    }
+}
